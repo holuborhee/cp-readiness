@@ -1,17 +1,60 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
 
-    <link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" type="text/css" href="main.css">
 
-  </head>
-  <body>
-  <div id="container">
+	</head>
+	<body>
+		<section id="container">
+			<div id="top">
+			    <header>
+				    <nav class="nav">
+						<a href="#">Gmail</a>
+					    <a href="#">Images</a>
+					    <a href="#"><img src="icon.png" /></a>
+					    <a href="#" id="signin">Sign In</a>
+				    </nav>
+			    </header>
+			    <main>
+			    	<div class="justify img-box">
+						<img src="google.png" />
+					</div>
+					<div class="form">
+						<input type="text" id="search" class="w-100" />
+						<span><img src="voice.png" class="icon" /></span>
+					</div>
+				    
+				    <div class="justify">
+				    	<input type="submit" onclick="validateSearch()" value="Google Search" />
+				    	<input type="submit" value="I'm Feeling lucky" />
+				    </div>
+				    <div class="justify">
+				    	<span>Google Offered In: </span>
+				    	<a href="#">Hausa</a>
+				    	<a href="#">Igbo</a>
+				    	<a href="#">Ede Yoruba</a>
+				    	<a href="#">Pidgin</a>
+				    </div>
+			    </main>
+			</div>
+			<footer>
+				<span class="nav">
+					<a href="#">Advertising</a>
+					<a href="#">Business</a>
+					<a href="#">About</a>
+				</span>
+				<span class=nav>
+					<a href="#">Privacy</a>
+					<a href="#">Terms</a>
+					<a href="#">Settings</a>
+					<a href="#">Use Google.com</a>
+				</span>
+			</footer>
+		</section>
 
-  </div>
-  	
-  <script type="text/javascript" src="app.js"></script>	
-  </body>
+		<script type="text/javascript" src="app.js"></script>	
+	</body>
 </html>
